@@ -1,9 +1,13 @@
 package com.arrys.pro;
 
+import java.util.Arrays;
+
 public class ArrayPro {
 	public static void main(String[] args) {
 
         int[] numbers = {2, -9, 0, 5, 12, -25, 22, 9, 8, 12};
+        int[] num = {10, 20 ,30};
+        System.out.println(Arrays.toString(num));
         int sum = 0;
         Double average;
      
